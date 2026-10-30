@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marty McFly — Currículo</title>
-  <meta name="description" content="Currículo de Marty McFly — projeto do curso Figma Turbo, implementado em HTML5, Tailwind CSS e JavaScript por Rilley de Sousa Gomes.">
+  <meta name="description" content="Currículo fictício de Marty McFly, personagem de De Volta para o Futuro.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%23f0d62e'/%3E%3Ctext x='50' y='62' font-family='Arial, sans-serif' font-weight='bold' font-size='42' text-anchor='middle' fill='%23000'%3EMM%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,33 +18,28 @@
         extend: {
           fontFamily: {
             sans: ['IBM Plex Sans', 'sans-serif'],
-            mono: ['IBM Plex Mono', 'monospace'],
-          },
-        },
-      },
+            mono: ['IBM Plex Mono', 'monospace']
+          }
+        }
+      }
     }
   </script>
 </head>
 <body class="bg-white text-black dark:bg-[#0d0d0f] dark:text-[#f2f2f2] font-sans transition-colors duration-500">
   <div class="max-w-[1344px] mx-auto px-6 py-8 lg:px-12 lg:py-16">
     <header class="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-[33px] relative">
-      <div class="w-[120px] h-[120px] min-w-[120px] bg-[#f0d62e] rounded-lg flex items-center justify-center font-sans font-bold text-[42px]
-                  shadow-[0_8px_24px_rgba(240,214,46,0.35)] hover:shadow-[0_10px_28px_rgba(240,214,46,0.5)]
-                  hover:-rotate-[4deg] hover:scale-105 transition-transform duration-300">
+      <div class="w-[120px] h-[120px] min-w-[120px] bg-[#f0d62e] rounded-lg flex items-center justify-center font-sans font-bold text-[42px] shadow-[0_8px_24px_rgba(240,214,46,0.35)] hover:shadow-[0_10px_28px_rgba(240,214,46,0.5)] hover:-rotate-[4deg] hover:scale-105 transition-transform duration-300">
         MM
       </div>
       <div>
-        <h1 class="font-mono font-semibold text-[22px] mb-2">Rilley de Sousa Gomes</h1>
+        <h1 class="font-mono font-semibold text-[22px] mb-2">Marty McFly</h1>
         <p class="font-mono text-base m-0">Consultor de Cronologia e Especialista em Performance Musical</p>
       </div>
-      <button id="theme-toggle"
-              class="absolute top-0 right-0 lg:static lg:ml-auto w-12 h-12 rounded-full border-2 border-[#f0d62e]
-                     bg-transparent flex items-center justify-center text-xl cursor-pointer
-                     hover:bg-[#f0d62e] hover:scale-110 hover:rotate-[20deg] transition-transform duration-300"
-              title="Ativar Flux Capacitor (modo noturno)" aria-label="Alternar modo noturno">
+      <button id="theme-toggle" class="absolute top-0 right-0 lg:static lg:ml-auto w-12 h-12 rounded-full border-2 border-[#f0d62e] bg-transparent flex items-center justify-center text-xl cursor-pointer hover:bg-[#f0d62e] hover:scale-110 hover:rotate-[20deg] transition-transform duration-300" title="Ativar Flux Capacitor (modo noturno)" aria-label="Alternar modo noturno">
         <span>⚡</span>
       </button>
     </header>
+
     <hr class="border-t border-[#e0e0e0] dark:border-[#333] my-10">
 
     <div class="flex flex-col lg:flex-row gap-[73px]">
@@ -51,23 +47,28 @@
         <section class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0">
           <p class="font-sans text-lg leading-relaxed mb-12">Jovem dinâmico, pontual (quando o capacitor de fluxo permite) e com vasta experiência em resolução de paradoxos temporais. Guitarrista talentoso com domínio de técnicas avançadas de shredding antes mesmo de serem inventadas. Experiente em lidar com figuras históricas, direção defensiva de veículos modificados e skate urbano. Nota: Não me chame de frangote.</p>
         </section>
+
         <section>
           <h2 class="font-sans font-bold text-sm tracking-[2.1px] uppercase mb-6">Experiências Profissionais</h2>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1985 – Presente | The Pinheads</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Guitarrista Principal</p>
             <p class="font-sans text-lg leading-relaxed m-0">Composição e performance de Rock 'n' Roll. Responsável pela audição da "Batalha das Bandas" (mesmo sendo considerado "barulhento demais" por alguns juízes).</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1955 – Baile Encanto sob o Mar</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Músico Substituto (Guitarra)</p>
             <p class="font-sans text-lg leading-relaxed m-0">Substituição emergencial do guitarrista Marvin Berry. Responsável pela introdução cultural do gênero Heavy Metal trinta anos antes do previsto.</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1885 – Consultoria de Segurança Hill Valley (Velho Oeste)</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Assistente de Ferreiro</p>
             <p class="font-sans text-lg leading-relaxed m-0">Auxílio técnico em engenharia ferroviária improvisada e mediação de conflitos com a gangue de Buford "Cachorro Louco" Tannen.</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1985 – Indústrias Biffco</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Sobrevivente Urbano</p>
@@ -79,27 +80,32 @@
       <aside class="flex-[383] min-w-0">
         <section class="mb-10">
           <h2 class="font-sans font-bold text-sm tracking-[2.1px] uppercase mb-6">Educação</h2>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1986 | Hill Valley High School</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Ensino Médio Completo</p>
             <p class="font-sans text-lg leading-relaxed m-0">Foco em Artes e Música</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1955 | Cultural Hill Valley</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Intercâmbio</p>
             <p class="font-sans text-lg leading-relaxed m-0">Estudos intensivos sobre dinâmicas sociais da década de 50 e etiqueta de lanchonetes.</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-10 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">1985 | Engenharia Aplicada</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Workshop</p>
             <p class="font-sans text-lg leading-relaxed m-0">Treinamento prático em sistemas de 1.21 Gigawatts e mecânica de DeLorean (sob mentoria do Dr. Emmett Brown).</p>
           </article>
+
           <article class="reveal opacity-0 translate-y-4 transition-all duration-700 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:translate-y-0 mb-0 -ml-4 p-4 border-l-[3px] border-transparent rounded-md hover:border-[#f0d62e] hover:bg-[#faf6e0] dark:hover:bg-[#1c1a10] hover:translate-x-1">
             <h3 class="font-sans font-bold text-lg mb-2">2015 | Mobilidade Urbana Futurista</h3>
             <p class="font-mono font-bold text-lg text-[#7e7e7e] dark:text-[#b5b5b5] mb-3">Treinamento</p>
             <p class="font-sans text-lg leading-relaxed m-0">Curso intensivo de pilotagem de Hoverboard em superfícies sólidas (atenção: pranchas não funcionam na água sem potência extra).</p>
           </article>
         </section>
+
         <section>
           <h2 class="font-sans font-bold text-sm tracking-[2.1px] uppercase mb-6">Contato</h2>
           <p class="font-sans text-sm mb-2"><strong>ENDEREÇO:</strong> Lyon Estates, Hill Valley, CA.</p>
@@ -109,7 +115,7 @@
           </p>
           <p class="font-sans text-sm mb-2">
             <strong>TELEFONE:</strong>
-            <a href="tel:+558894920108" class="text-current no-underline border-b border-[#b1b1b1] hover:text-[#b89b00] hover:border-current transition-colors">+55 (88) 9492-0108</a>
+            <a href="tel:+558881704722" class="text-current no-underline border-b border-[#b1b1b1] hover:text-[#b89b00] hover:border-current transition-colors">+55 (88) 8170-4722</a>
           </p>
         </section>
       </aside>
@@ -120,6 +126,7 @@
       <p class="font-sans font-bold text-sm tracking-[2.1px] uppercase text-[#b1b1b1] dark:text-[#7a7a7a] m-0">Copyright 2026 - todos os direitos reservados</p>
     </footer>
   </div>
+
   <script>
     const toggleBtn = document.getElementById('theme-toggle');
     const root = document.documentElement;
@@ -135,6 +142,7 @@
       el.classList.remove('opacity-0', 'translate-y-4');
       el.classList.add('opacity-100', 'translate-y-0');
     };
+
     if ('IntersectionObserver' in window) {
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
